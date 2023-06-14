@@ -1,0 +1,8 @@
+{
+  "model2d": {
+    "model": "ChemProp",
+    "chemprop": {
+        "num_layers": 6
+    }
+  }
+}

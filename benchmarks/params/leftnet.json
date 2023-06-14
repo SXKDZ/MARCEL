@@ -1,0 +1,14 @@
+{
+  "batch_size": 64,
+  "learning_rate": 1e-4,
+
+  "model3d": {
+    "model": "LEFTNet",
+    "leftnet": {
+      "cutoff": 6.5,
+      "num_layers": 6,
+      "hidden_channels": 128,
+      "num_radial": 32
+    }
+  }
+}

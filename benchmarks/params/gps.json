@@ -1,0 +1,10 @@
+{
+  "model2d": {
+    "model": "GPS",
+    "gps": {
+      "num_layers": 6,
+      "walk_length": 20,
+      "num_heads": 4
+    }
+  }
+}

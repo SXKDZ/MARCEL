@@ -1,0 +1,6 @@
+{
+  "model1d": {
+    "model": "Transformer"
+  },
+  "batch_size": 128
+}

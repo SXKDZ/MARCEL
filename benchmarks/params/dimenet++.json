@@ -1,0 +1,14 @@
+{
+  "model3d": {
+    "model": "DimeNet++",
+    "dimenetplusplus": {
+      "hidden_channels": 128,
+      "num_blocks": 4,
+      "int_emb_size": 64,
+      "basis_emb_size": 8,
+      "out_emb_channels": 256,
+      "num_spherical": 7,
+      "num_radial": 6
+    }
+  }
+}

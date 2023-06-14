@@ -1,0 +1,11 @@
+{
+  "model3d": {
+    "model": "ClofNet",
+    "leftnet": {
+      "cutoff": 6.5,
+      "num_layers": 6,
+      "hidden_channels": 128,
+      "num_radial": 32
+    }
+  }
+}

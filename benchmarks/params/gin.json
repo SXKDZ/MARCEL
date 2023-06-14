@@ -1,0 +1,9 @@
+{
+  "model2d": {
+    "model": "GIN",
+    "gin": {
+        "num_layers": 6,
+        "virtual_node": false
+    }
+  }
+}

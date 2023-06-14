@@ -1,0 +1,23 @@
+{
+  "batch_size": 64,
+
+  "model3d": {
+    "model": "GemNet",
+    "gemnet": {
+      "num_spherical": 7,
+      "num_radial": 6,
+      "num_blocks": 4,
+      "emb_size_atom": 128,
+      "emb_size_edge": 128,
+      "emb_size_trip": 64,
+      "emb_size_rbf": 16,
+      "emb_size_cbf": 16,
+      "emb_size_bil_trip": 64,
+      "num_before_skip": 1,
+      "num_after_skip": 1,
+      "num_concat": 1,
+      "num_atoms": 1,
+      "num_atom": 2
+    }
+  }
+}
