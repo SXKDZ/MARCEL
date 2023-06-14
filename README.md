@@ -69,8 +69,16 @@ Since EE and BDE involve interactions between two molecules, we implement anothe
 
 ## Instructions on Reproducing Results
 
-The hyperparameters are stored in `benchmarks/params` folder.
+The default hyperparameters are set in [`config.py`](benchmarks/config.py). Other model-dependent parameters are stored in the [`params`](benchmarks/params) folder separately. To reproduce the model you want to run, simply change the `config` parameter in `ConfigLoader` to the corresponding model parameter file.
 
+| Model                            | Training script and parameters             |
+| -------------------------------- | ------------------------------------------ |
+| 1D fingerprint model             | `train_fp_rf.py`                           |
+| 1D SMILES-based sequential model | `train_1d.py`                              |
+| 2D model                         | `train_2d.py`                              |
+| Single-conformer 3D model        | `train_3d.py --model3d:augmentation False` |
+| 3D model with conformer sampling | `train_3d.py --model3d:augmentation True` |
+| Conformer ensemble model | `train_ensemble.py` |
 
 
 ## License
