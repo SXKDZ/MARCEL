@@ -52,11 +52,26 @@ The following packages are required for running the benchmarks.
 
 ## Dataset Loaders
 
-MARCEL has implemented PyG data loaders for each dataset. Download each dataset and place the each zipped file under its corresponding directory, i.e. `datasets/<NAME>/raw`.
+MARCEL has implemented PyG data loaders for each dataset. Download the dataset and place each zipped file under its corresponding directory, i.e. `datasets/<NAME>/raw`.
+
+| Dataset   | Dataloader class                                           |
+| --------- | ---------------------------------------------------------- |
+| Drugs-75K | `data.drugs.Drugs`                                         |
+| Kraken    | `data.kraken.Kraken`                                       |
+| EE        | `data.ee.EE_2D` for 2D models, `data.ee.EE` for the others |
+| BDE       | `data.bde.BDE`                                             |
 
 ## Batch Samplers
 
+For Drugs-75K and Kraken, use `EnsembleSampler` to sample mini-batches of molecules from `loaders.samplers`. You can specify the sampling strategy to `random` that randomly samples one conformer, `first` that always loads the first conformer in each ensemble, or `all` that loads all conformers.
+
+Since EE and BDE involve interactions between two molecules, we implement another sampler `EnsembleMultiBatchSampler` from `loaders.samplers`. In this case, each conformer of the system will be loaded as a tuple `[data_0, data_1]`, which corresponds to one of the two molecules in the system.
+
 ## Instructions on Reproducing Results
+
+The hyperparameters are stored in `benchmarks/params` folder.
+
+
 
 ## License
 
