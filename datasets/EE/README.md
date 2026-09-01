@@ -8,7 +8,7 @@
 
 ## Download
 
-Dataset access not publicly available
+[Google Drive](https://drive.google.com/file/d/1rIknilf5D-J50lPblsPtuFhEil9K1RO-/view?usp=sharing)
 
 ## Format
 
@@ -19,4 +19,4 @@ There are two files inside `EE.zip`:
 
 ## License
 
-As of now, the EE dataset is proprietary, given that the publication addressing the conformer ensembles is still under preparation. Therefore, access to the EE dataset is restricted to review purposes only. We anticipate making the EE dataset publicly accessible following the acceptance of the corresponding paper.
+The EE dataset is publicly accessible. The copyright of the dataset is retained by the original authors. An archived copy is also available on Zenodo at https://doi.org/10.5281/zenodo.22212806.

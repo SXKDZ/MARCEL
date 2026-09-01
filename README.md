@@ -30,7 +30,7 @@ Links: [Download](https://drive.google.com/file/d/1QrV651Re7s6UF7Lg4KC9PM5QQUMPU
 
 EE is a dataset of 872 catalyst-substrate pairs involving 253 Rhodium (Rh)-bound atropisomeric catalysts derived from chiral bisphosphine, with 10 enamides as substrates. The dataset includes conformations of catalyst-substrate transition state complexes in two separate pro-S and pro-R configurations. The task is to predict the Enantiomeric Excess (EE) of the chemical reaction involving the substrate, defined as the absolute ratio between the concentration of each enantiomer in the product distribution. This dataset is generated with Q2MM, which automatically generates Transition State Force Fields (TSFFs) in order to simulate the conformer ensembles of each prochiral transition state complex. EE can then be computed from the conformer ensembles by Boltzmann-averaging the activation energies for the competing transition states. Unlike properties in Drugs-75K and Kraken, EE depends on the conformer ensembles of *each* pro-R and pro-S complex.
 
-Links: Dataset access not publicly available, [Instructions](datasets/EE)
+Links: [Download](https://drive.google.com/file/d/1rIknilf5D-J50lPblsPtuFhEil9K1RO-/view?usp=sharing), [Instructions](datasets/EE)
 
 ## BDE
 
